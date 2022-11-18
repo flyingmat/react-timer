@@ -1,3 +1,3 @@
 export interface ICustomDemoTimerProps {
-    delta: number;
+    delta: number
 }

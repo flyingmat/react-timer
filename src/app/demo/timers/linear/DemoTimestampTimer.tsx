@@ -1,6 +1,6 @@
-import { DemoTimer } from "../../DemoTimer";
-import { ICustomDemoTimerProps } from "../ICustomDemoTimerProps";
-import { fn } from "../TimestampFn"
+import { DemoTimer } from '../../DemoTimer'
+import { ICustomDemoTimerProps } from '../ICustomDemoTimerProps'
+import { fn } from '../TimestampFn'
 
 export interface IDemoTimestampTimerProps extends ICustomDemoTimerProps {
     multiplier?: number

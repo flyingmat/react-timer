@@ -1,5 +1,5 @@
-import { useEffect, useRef } from "react"
-import { ITimeFn, ITimeFnOptions, timeFn } from "../../../timeFn"
+import { useEffect, useRef } from 'react'
+import { ITimeFn, ITimeFnOptions, timeFn } from '../../../timeFn'
 
 export interface IPromiseTimerArgs<T, K> extends ITimeFnOptions<K> {
     promise: Promise<T> | null

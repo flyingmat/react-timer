@@ -1,5 +1,5 @@
-import { DemoTimer } from "../../DemoTimer";
-import { ICustomDemoTimerProps } from "../ICustomDemoTimerProps";
+import { DemoTimer } from '../../DemoTimer'
+import { ICustomDemoTimerProps } from '../ICustomDemoTimerProps'
 
 export const DemoSMsSepTimer = ({ delta }: ICustomDemoTimerProps) => {
 

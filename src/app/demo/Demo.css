@@ -22,13 +22,22 @@ body {
     overflow: hidden;
 }
 
-#demo-timers {
+#demo-content {
     position: absolute;
     top: 50px;
 
     width: 100%;
     height: calc(100% - 50px);
 
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    overflow: hidden;
+}
+
+#demo-timers {
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;

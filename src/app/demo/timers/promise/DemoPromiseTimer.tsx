@@ -1,13 +1,13 @@
-import { useEffect, useRef, useState } from "react";
-import { msDeltaTimeFn } from "../../../msDeltaTimeFn";
-import { DemoTimer } from "../../DemoTimer";
-import { fn } from "../msDeltaToSMs";
-import { usePromiseTimer } from "./usePromiseTimer";
+import { useEffect, useRef, useState } from 'react'
+import { msDeltaTimeFn } from '../../../msDeltaTimeFn'
+import { DemoTimer } from '../../DemoTimer'
+import { fn } from '../msDeltaToSMs'
+import { usePromiseTimer } from './usePromiseTimer'
 
 export const DemoPromiseTimer = () => {
 
-    const [delta, setDelta] = useState(0);
-    const [promise, setPromise] = useState<Promise<number> | null>(null);
+    const [delta, setDelta] = useState(0)
+    const [promise, setPromise] = useState<Promise<number> | null>(null)
     const interval = useRef<number | null>(null)
     const promiseTimeout = useRef<number | null>(null)
     const timer = usePromiseTimer({ promise: promise, get: msDeltaTimeFn })
@@ -28,9 +28,9 @@ export const DemoPromiseTimer = () => {
     }
 
     return (
-        <div className="demo-promise">
+        <div className='demo-promise'>
             <DemoTimer {...{ value: fn(delta), subtitle: 'Promise (1s)' }} />
-            <button className="demo-button" onClick={spawnPromise}>Spawn promise</button>
+            <button className='demo-button' onClick={spawnPromise}>Spawn promise</button>
         </div>
     )
 
