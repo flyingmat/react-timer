@@ -1,0 +1,45 @@
+.demo-timer {
+    width: var(--x-width);
+    max-width: var(--x-width);
+    flex: 0 0 var(--x-width);
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+
+    background-color: #262626;
+
+    --x-width: 250px;
+}
+
+.demo-timer-value {
+    max-width: 200px;
+
+    font-size: 26px;
+    font-weight: 500;
+    font-family: 'monospace';
+
+    color: #666;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.demo-timer-subtitle {
+    max-width: 200px;
+
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'monospace';
+
+    color: #444;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
