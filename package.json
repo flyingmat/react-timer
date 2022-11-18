@@ -1,7 +1,7 @@
 {
   "name": "react-timer",
   "version": "0.1.0",
-  "homepage": "https://flyingmat.github.io/react-timer",
+  "homepage": "https://paramtt.github.io/react-timer",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
